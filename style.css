@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    /*grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);*/
     justify-content: center;
     align-content: center;
     height: 600px;
@@ -11,24 +11,40 @@
     margin-top: 30px;
 }
 
-
-.square{
-    background-color: lightgrey;
+.square {
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.185);
 }
 
-.color{
+.color {
     background-color: black;
 }
 
-#clear-board {
+button {
     display: block;
     margin: auto;
     margin-top: 30px;
     height: 40px;
 }
 
-#etch-a-sketch{
+#etch-a-sketch {
     display: flex;
     justify-content: center;
+    color: white;
+}
+
+#grid-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-row: 2;
+    width: 150px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: rgb(37, 36, 36);
 }
