@@ -1,5 +1,4 @@
 const grid = document.querySelector("div[id = 'grid-container']");
-//const squares = [];
 
 //sets mousedown to true, must hold and hover to color board
 isMouseDown = false;
